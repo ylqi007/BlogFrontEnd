@@ -25,9 +25,15 @@
 * JSON 用来描述前后端数据交互的内容格式，有了 JSON 这样的一套统一的描述规则，前后端解析数据的成本变低，使用非常简单。JSON 属于 JavaScript 的一个子集。
 
 
-## 4. Import Image
+## 4. Components
+* Import Images
 [Unsplash.it: Use Placeholder Photos From Unsplash.com](https://www.jotform.com/blog/unsplash-it-use-placeholder-photos-from-unsplash-com-93599/)
 [Easy to use, stylish placeholders](https://picsum.photos/)
+* Find Icons
+[Font Awesome](https://fontawesome.com/)
+
+## 5. 
+* `div.ui.segment` is different with `div.ui.segments`
 
 ### Reference
 [jsDelivr](https://www.jsdelivr.com/)
@@ -39,4 +45,5 @@
 6. [JavaScript、jQuery、AJAX、JSON 这四个之间的关系？](https://www.zhihu.com/question/31305968)
 7. [Unsplash.it: Use Placeholder Photos From Unsplash.com](https://www.jotform.com/blog/unsplash-it-use-placeholder-photos-from-unsplash-com-93599/)
 8. [Easy to use, stylish placeholders](https://picsum.photos/)
+9. [Font Awesome](https://fontawesome.com/)
 
