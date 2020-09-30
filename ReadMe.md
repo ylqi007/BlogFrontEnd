@@ -35,6 +35,8 @@
 ## 5. 
 * `div.ui.segment` is different with `div.ui.segments`
 
+## 6. Click Pay Button to toggle Images
+
 ### Reference
 [jsDelivr](https://www.jsdelivr.com/)
 1. [HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
