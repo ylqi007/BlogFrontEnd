@@ -46,4 +46,5 @@
 7. [Unsplash.it: Use Placeholder Photos From Unsplash.com](https://www.jotform.com/blog/unsplash-it-use-placeholder-photos-from-unsplash-com-93599/)
 8. [Easy to use, stylish placeholders](https://picsum.photos/)
 9. [Font Awesome](https://fontawesome.com/)
+10.[JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp)
 
