@@ -50,4 +50,5 @@
 9. [Font Awesome](https://fontawesome.com/)
 10. [JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp)
 11. [CSS Tutorial](https://www.w3schools.com/css/)
+12. [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
 
