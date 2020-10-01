@@ -73,7 +73,7 @@ body {
 }
 
 
-/*---------------------------text---------------------------*/
+/*=========================== text ===========================*/
 .me-text {
     font-weight: 300 !important;
     letter-spacing: 1px !important;
@@ -90,7 +90,7 @@ body {
 }
 
 
-/*---------------------------opacity---------------------------*/
+/*=========================== opacity ===========================*/
 .me-opacity-mini {
     opacity: 0.8 !important;
 }
@@ -145,9 +145,18 @@ body {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
+    .me-mobile-lr-clear {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
     .me-mobile-wide {
         width: 100% !important;
     }
 }
 
 
+/*=========================== shadow ===========================*/
+.me-shadow-small {
+    -webkit-box-shadow: 0 40px 100px rgba(0,0,0,0.5) !important;
+    box-shadow: 0 40px 100px rgba(0,0,0,0.5) !important;
+}
