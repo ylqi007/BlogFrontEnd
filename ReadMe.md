@@ -13,10 +13,22 @@
 * 将 `menu` 放到 `container` 中。
 
 
+
 ## 2. Semantic UI
 * 构建前端的框架。
 * CDN(Contect Delivery Netword, or Content Distribute Network): 在我看来，CDN的本质是缓存，而内核中支撑它的互联网精神则是共享。
-
+* `ui segment`, `ui container`, `attached`, `menu`, 
+* `div.ui.segment` is different with `div.ui.segments`
+* `div.ui.pagination`
+* `Form validation`
+* `ui dropdown`
+* `ui selection dropdown`
+* `ui table`
+* `ui label`
+* `ui checkbox`
+* `menu`
+* `ui error message`
+* `ui right aligned container`
 
 ## 3. JavaScript、jQuery、AJAX、JSON 这四个之间的关系？
 * JavaScript 为页面提供更多功能，是页面交互功能的基础语言。此外它的语言规范和引擎还被用于其他领域，比如 Node 等。
@@ -32,23 +44,33 @@
 * Find Icons
 [Font Awesome](https://fontawesome.com/)
 
-## 5. 
-* `div.ui.segment` is different with `div.ui.segments`
 
-## 6. Click Pay Button to toggle Images
+## 5. Click Pay Button to toggle Images
 
 ### Reference
 [jsDelivr](https://www.jsdelivr.com/)
-1. [HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
-2. [HTML 页面自适应](https://blog.csdn.net/qq_26528483/article/details/97813907?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.nonecase)
-3. [HTML5----响应式（自适应）网页设计（自动适应屏幕大小）](https://blog.csdn.net/qq_40164190/article/details/83089459?utm_medium=distribute.pc_relevant.none-task-blog-title-2&spm=1001.2101.3001.4242)
-4. [什么是CDN及其特点](http://caibaojian.com/cdn.html)
-5. [CDN是什么？使用CDN有什么优势？](https://www.zhihu.com/question/36514327)
-6. [JavaScript、jQuery、AJAX、JSON 这四个之间的关系？](https://www.zhihu.com/question/31305968)
-7. [Unsplash.it: Use Placeholder Photos From Unsplash.com](https://www.jotform.com/blog/unsplash-it-use-placeholder-photos-from-unsplash-com-93599/)
-8. [Easy to use, stylish placeholders](https://picsum.photos/)
-9. [Font Awesome](https://fontawesome.com/)
-10. [JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp)
-11. [CSS Tutorial](https://www.w3schools.com/css/)
-12. [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+[HTML 元素参考](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element)
+[HTML 页面自适应](https://blog.csdn.net/qq_26528483/article/details/97813907?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3.nonecase)
+[HTML5----响应式（自适应）网页设计（自动适应屏幕大小）](https://blog.csdn.net/qq_40164190/article/details/83089459?utm_medium=distribute.pc_relevant.none-task-blog-title-2&spm=1001.2101.3001.4242)
+[什么是CDN及其特点](http://caibaojian.com/cdn.html)
+[CDN是什么？使用CDN有什么优势？](https://www.zhihu.com/question/36514327)
+[JavaScript、jQuery、AJAX、JSON 这四个之间的关系？](https://www.zhihu.com/question/31305968)
+[Unsplash.it: Use Placeholder Photos From Unsplash.com](https://www.jotform.com/blog/unsplash-it-use-placeholder-photos-from-unsplash-com-93599/)
+[Easy to use, stylish placeholders](https://picsum.photos/)
+[Font Awesome](https://fontawesome.com/)
+[JavaScript Tutorial](https://www.w3schools.com/js/DEFAULT.asp)
+[CSS Tutorial](https://www.w3schools.com/css/)
+[HTML Tutorial](https://www.w3schools.com/html/default.asp)
+[Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/)
+[css中什么是Semantic UI框架？](https://www.html.cn/qa/css3/18151.html)
+[Angular与React的区别](https://blog.csdn.net/victoryzn/article/details/77987337)
+[web前端 | 到底怎么学？](https://mp.weixin.qq.com/s?__biz=MzI5ODM3MjcxNQ==&mid=2247483840&idx=2&sn=0ff8bb94c24f0fd4bb9a044a9ff9251d&scene=19#wechat_redirect)
+[web前端入坑第五篇：秒懂Vuejs、Angular、React原理和前端发展历史](https://blog.csdn.net/xllily_11/article/details/69527396?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param)
+[]()
+[]()
+[]()
+[]()
+[]()
+[]()
+
 
