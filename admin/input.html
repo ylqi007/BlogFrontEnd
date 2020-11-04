@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
     <link rel="stylesheet" href="../static/css/me.css">
+    <link rel="stylesheet" href="../static/lib/editormd/css/editormd.min.css">
     <title>博客发布</title>
 </head>
 
@@ -69,7 +70,20 @@
                 </div>
 
                 <div class="field">
-                    <textarea placeholder="博客内容" name="content" id="" cols="30" rows="10"></textarea>
+                    <div id="md-content" style="z-index: 1 !important;">
+                        <textarea placeholder="博客内容" name="content" style="display: none">
+[TOC]
+
+#### Disabled options
+
+- TeX (Based on KaTeX);
+- Emoji;
+- Task lists;
+- HTML tags decode;
+- Flowchart and Sequence Diagram;
+                        </textarea>
+                    </div>
+
                 </div>
                 
                 <div class="two fields">
@@ -189,8 +203,30 @@
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script src="../static/lib/editormd/editormd.min.js"></script>
 
 <script>
+    // Initialize Markdown editor
+    var contentEditor;
+    $(function() {
+        contentEditor = editormd("md-content", {
+            width   : "100%",
+            height  : 640,
+            syncScrolling : "single",
+            path    : "../static/lib/editormd/lib/"
+        });
+
+        /*
+        // or
+        testEditor = editormd({
+            id      : "test-editormd",
+            width   : "90%",
+            height  : 640,
+            path    : "../lib/"
+        });
+        */
+    });
+
     // Response to click button, display and show menu bar in navigator
     $('.menu.toggle').click(function() {
         $('.m-item').toggleClass('me-mobile-hide');
