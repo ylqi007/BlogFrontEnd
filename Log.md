@@ -1,5 +1,10 @@
 # Spring Boot开发小而美的个人博客
 
+## TODO
+- [ ] 什么是 js，jQuery，CDN，
+- [ ] JavaScript
+- [ ] 读一读各个插件的文档
+
 
 ## 0. Log
 - [x] 20200927
@@ -25,7 +30,16 @@
     * `blog.html` + tocbot
     1. 当创建底部的 menu bottom 的时候，在 firefox 中，css `m-fixed m-right-bottom` 不工作，但是在 chrome 中却没有问题。
     2. 添加 toc，css + js + init + 通过 class 去定位等等。
-
+- [x] 20201108
+    * `blog.html` + generate scan code
+    1. 通过前端的 js plugin 生成该页面链接的二维码。
+    2. 生成的 QR Code 尺寸过大，会导致显示 position 的不正确。
+    * `blog.html` + waypoint (滚动侦测，当页面向下滚动的时候，页面才会显示。)
+    * `blog.html` + jquery.scrollTo (平滑滚动)
+    
+ 
+    
+    
 ## 1. Design
 **个人博客功能：**
 
