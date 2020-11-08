@@ -129,6 +129,15 @@ body {
     right: 0;
 }
 
+.m-fixed {
+    position: fixed !important;
+    z-index: 10 !important;
+}
+
+.m-right-bottom {
+    bottom: 0 !important;
+    right: 0 !important;
+}
 
 /*---------------------------mobile---------------------------*/
 .me-mobile-show {

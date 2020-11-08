@@ -21,11 +21,14 @@
 - [x] 20201104
     * `admin/input.html` + markdown plugin
     * `blog.html` + animate, prism
+- [x] 20201108
+    * `blog.html` + tocbot
+    1. 当创建底部的 menu bottom 的时候，在 firefox 中，css `m-fixed m-right-bottom` 不工作，但是在 chrome 中却没有问题。
+    2. 添加 toc，css + js + init + 通过 class 去定位等等。
 
 ## 1. Design
 **个人博客功能：**
 
-![](https://ws2.sinaimg.cn/large/006tKfTcgy1fk7m27hbn4j31ds0ycdnp.jpg)
 ![](images/blog_design.png)
 
 **技术组合：**
