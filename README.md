@@ -135,12 +135,14 @@ Blog
     * 设置 z-index
     * 只在客户端，手机端可能用不了
     
+
 [内容排版 typo.css](https://github.com/sofish/typo.css)
 1. 引入 CSS，`<link rel="stylesheet" href="./static/css/typo.css">`
 2. add `class = typo typo-selectoin`, 文章内容部分。可能出现和 static/css 相互冲突的情况，要做一些改变
     * Add prefix, add `.typo` in the beginning of line #40 in `typo.css`
     * table, `class="ui table"`, 使用 sementic ui 的 table，以便自适应手机端
     
+
 [动画 animate.css](https://daneden.github.io/animate.css/)
     * [Usage](https://animate.style/#usage), `<h1 class="animate__animated animate__bounce">An animated element</h1>`,
     使用的时候，必须加上 `animate_annimated animate_<animate action>`, 前缀 `animate_annimated` 不可少。
@@ -163,9 +165,9 @@ Blog
 
 **1、引入Spring Boot模块：**
 
-*  web
+*  web ==> Spring Web, using spring mvc and Tomcat
 *  Thymeleaf
-*  JPA
+*  JPA ==> Spring Data JPA
 *  MySQL
 *  Aspects
 *  DevTools
